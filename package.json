@@ -14,6 +14,7 @@
     "url": "https://github.com/pirsquare/multi-browserify.git"
   },
   "main": "index.js",
+  "bin": "./bin/multi-browserify",
   "scripts": {
     "test": "tap test/*.js"
   },
