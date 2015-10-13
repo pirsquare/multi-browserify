@@ -10,7 +10,7 @@ Sometimes you have multiple entry points for your app and you want to browserifi
 
 ## Installation
 
-    npm install multi-browserify
+    npm install multi-browserify -g
 
 ## Examples
 Say all your entry point files are stored in `/js/entry/` and you want to output the browserified files to `/js/bundles/`
