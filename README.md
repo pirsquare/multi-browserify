@@ -22,7 +22,10 @@ multi-browserify -i /js/entry/ -o /js/bundles/ -s
 ```
 
 ## Subdirectories
-Multi-Browserify supports entry point files in subdirectories. Say you have entry point in `/js/entry/subdir1/subdir2/a.js` running `multi-browserify -i /js/entry/ -o /js/bundles/` will output file to `/js/bundles/subdir1/subdir2/a.js`
+Multi-Browserify supports entry point files in subdirectories.
+
+Say you have entry point file `/js/entry/subdir1/subdir2/a.js`.
+Running `multi-browserify -i /js/entry/ -o /js/bundles/` will output file to `/js/bundles/subdir1/subdir2/a.js`
 
 
 ## Testing
